@@ -9,7 +9,7 @@ START=99
 STOP=10
 
 CONF="homeproxy"
-PROG="/usr/bin/sing-box"
+PROG="/mnt/sda1/software/userbin/sing-box"
 
 HP_DIR="/etc/homeproxy"
 RUN_DIR="/var/run/homeproxy"
