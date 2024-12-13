@@ -144,7 +144,7 @@ const methods = {
 	log_clean: {
 		args: { type: 'type' },
 		call: function(req) {
-			if (!(req.args?.type in ['homeproxy', 'sing-box-c', 'sing-box-s']))
+			if (!(req.args?.type in ['homeproxy', '-c', '-s']))
 				return { result: false, error: 'illegal type' };
 
 			const filestat = lstat(`${RUN_DIR}/${req.args?.type}.log`);
@@ -158,7 +158,7 @@ const methods = {
 		call: function() {
 			let features = {};
 
-			const fd = popen('/usr/bin/sing-box version');
+			const fd = popen('/mnt/sda1/software/userbin/sing-box version');
 			if (fd) {
 				for (let line = fd.read('line'); length(line); line = fd.read('line')) {
 					if (match(trim(line), /^sing-box version (.*)/))
