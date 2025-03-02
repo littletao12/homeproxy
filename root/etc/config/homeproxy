@@ -42,7 +42,7 @@ config homeproxy 'control'
 	list wan_proxy_ipv6_ips '2001:67c:4e8::/48'
 	list wan_proxy_ipv6_ips '2001:b28:f23c::/47'
 	list wan_proxy_ipv6_ips '2001:b28:f23f::/48'
-	list wan_proxy_ipv6_ips '2a0a:f280:203::/48'
+	list wan_proxy_ipv6_ips '2a0a:f280::/32'
 
 config homeproxy 'routing'
 	option sniff_override '1'
