@@ -1163,6 +1163,7 @@ expatshield.com
 expecthim.com
 expekt.com
 exploader.net
+expressnews.com
 expressvpn.com
 exrates.me
 extmatrix.com
@@ -4014,6 +4015,7 @@ webmproject.org
 webpkgcache.com
 webrtc.org
 websdr.org
+webshare.io
 website.new
 webwarper.net
 wechatlawsuit.com
